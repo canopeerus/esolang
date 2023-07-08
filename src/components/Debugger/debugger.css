@@ -1,0 +1,41 @@
+.instruction_box {
+    background-color: black;
+    color: white;
+    resize: none;
+    width: 30%;
+    height: 350px;
+    caret-color: white;
+    max-height: 350px;
+    float: left;
+    overflow-y: scroll;
+}
+
+.instruction {
+    font-size: 1.5em;
+}
+
+.debug_data_box {
+    padding-top: 2%;
+}
+
+#executeBtn {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.tape_box {
+    background-color: black;
+    padding-left: 3%;
+    color: white;
+    width: 60%;
+    height: 350px;
+    max-height: 350px;
+    float: right;
+    overflow-y: scroll;
+}
+
+.current_instruction {
+    font-size: 1.5em;
+    background-color: #474403;
+    color: white;
+}
